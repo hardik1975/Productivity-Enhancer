@@ -11,10 +11,10 @@ In this project, we tackle this issue by designing a desk gadget that helps mana
 - Powered by ILI9341 TFT Display, ESP32.
 
 ## What I've Learned
-- **OLED Display:** Worked with a 0.96-inch OLED display and created a custom UI using the [Lopaka](https://lopaka.app/) tool.
-- **Touch Sensor:** Integrated touch sensor functionality for user interaction.
-- **Screen Transitions:** Developed smooth animations for transitions between different screens.
-- **EEPROM:** Worked with EEPROM for data storage and retention.
+- **millis() Overflow:** Fixed the millis() overflow for tracking the accurate time.
+- **NTP Server:** Learned how to track accurate time using an NTP server without relying on an RTC module.
+- **ILI9341 TFT Display Transitions:** Developed smooth animations for transitions between different screens.
+- **Firebase:** Used Firebase Realtime Database with ESP32 to manage all tasks.
 
 ## Remaining Tasks:
 - [ ] Firebase Integration with ESP32 and WebApp.
