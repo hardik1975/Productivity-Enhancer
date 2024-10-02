@@ -1,0 +1,53 @@
+#include <Adafruit_GFX.h>
+#include <Adafruit_ILI9341.h>
+
+// Define TFT display pins and create instance
+#define TFT_CS 10
+#define TFT_DC 9
+Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
+
+void setup() {
+    tft.begin();
+    tft.setRotation(3);
+    tft.fillScreen(ILI9341_BLACK);
+    tft.setTextColor(ILI9341_WHITE);
+    tft.setTextSize(7);
+}
+
+void loop() {
+    static int previousNumber = -1;
+    for (int i = 0; i < 1000; i++) {
+        updateDisplay(i, previousNumber);
+        previousNumber = i;
+        delay(500);
+    }
+}
+
+void updateDisplay(int currentNumber, int previousNumber) {
+    // Only update the changed digits
+    int current = currentNumber;
+    int previous = previousNumber;
+    int xPos = 220; // Start from right side
+    int yPos = 100;
+    
+    do {
+        int currentDigit = current % 10;
+        int previousDigit = previous % 10;
+        
+        if (currentDigit != previousDigit || current == 0) {
+            // Erase the previous digit
+            tft.setTextColor(ILI9341_BLACK);
+            tft.setCursor(xPos, yPos);
+            tft.print(previousDigit);
+            
+            // Draw the new digit
+            tft.setTextColor(ILI9341_WHITE);
+            tft.setCursor(xPos, yPos);
+            tft.print(currentDigit);
+        }
+        
+        xPos -= tft.measureText("0"); // Move left for next digit
+        current /= 10;
+        previous /= 10;
+    } while (current > 0 || previous > 0);
+}

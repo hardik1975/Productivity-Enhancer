@@ -1,0 +1,7 @@
+source "/Users/hardikseth/esp/v5.1.4/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/Users/hardikseth/esp/v5.1.4/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/Users/hardikseth/esp/v5.1.4/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/Users/hardikseth/esp/v5.1.4/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/Users/hardikseth/esp/v5.1.4/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/managed_components/espressif__arduino-esp32/Kconfig.projbuild"
+source "/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/managed_components/espressif__esp_rainmaker/Kconfig.projbuild"

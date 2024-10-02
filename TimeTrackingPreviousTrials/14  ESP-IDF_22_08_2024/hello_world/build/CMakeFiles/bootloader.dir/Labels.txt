@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/CMakeFiles/bootloader
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/CMakeFiles/bootloader.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/CMakeFiles/bootloader-complete.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/hardikseth/Documents/1Productivity Enhancer/14  ESP-IDF_22_08_2024/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
