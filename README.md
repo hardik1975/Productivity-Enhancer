@@ -1,4 +1,4 @@
-# Productivity Enhancer
+# Productivity Enhancer 
 My brother and I struggle with smartphone addiction, constantly getting distracted by social media, leading to wasted time and decreased productivity. 
 
 In this project, we tackle this issue by designing a desk gadget that helps manage our tasks and keeps us focused. By minimizing the need to check our phones, we’re aiming to reduce distractions.
